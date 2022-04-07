@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>DemoCanvas</title>
+        <script src="funciones.js"></script>
+    </head
+
+    <body>
+        <h1>Encabezado H1</h1>
+        <p>Buenos días</p>
+        <canvas id="canvas" width="500" height="300"></canvas>
+        <script>
+            var elemento = document.getElementById("canvas");
+            var canvas = elemento.getContext("2d");
+            canvas.fillStyle = '#F0DB4F';
+            canvas.strokeStyle = 'blue';
+            canvas.strokeRect(0, 0, 500, 300);
+            canvas.fillRect(110, 110, 100, 100);
+        </script>
+    </body>
+
+</html>
